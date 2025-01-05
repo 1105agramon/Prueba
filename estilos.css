@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column; /* Colocar elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;     /* Centra horizontalmente */
+    height: 100vh;           /* Ocupa toda la altura de la ventana */
+    margin: 0;
+    background-image: url(gato.jpg) ;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: repeat-x;
+}
+
+canvas {
+    margin-top: 20px; /* Añade espacio entre el h1 y el canvas */
+    background-color:rgba(128, 128, 128, 0.299);
+    border:5px solid rgb(0, 0, 0);
+}
+
+h1 {
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    background-color: rgba(0, 255, 255, 0.288);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column; /* Colocar elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;     /* Centra horizontalmente */
+}
+
+button {
+    margin: 2px;
+    padding: 5px;
+    
+}
