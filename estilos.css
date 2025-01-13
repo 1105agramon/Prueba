@@ -32,7 +32,42 @@ div {
 }
 
 button {
-    margin: 2px;
-    padding: 5px;
-    
+    margin: 5px;
+    padding: 10px 20px;
+    color: #f0f0f0;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 2px solid #777;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#ganador {
+    display: none;
+    background-color: #f5f5f5; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 2px solid #ddd; /* Borde sutil */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrar texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transición */
+}
+
+#ganador:hover {
+    background-color: #333; /* Fondo más oscuro */
+    color: #f5f5f5; /* Texto claro */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
 }
